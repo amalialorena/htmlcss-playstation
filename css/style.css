@@ -1,0 +1,36 @@
+
+/* debug */
+
+section {
+    height: 100vh;
+    background-color:aquamarine;
+    border: 1px solid black;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(247, 239, 239);
+}
+
+nav .logo{
+    height: 40px;
+    background-color: black;
+}
+
+nav .menu {
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.jumbo-thumbnails .col, 
+.playstation-carousel .col,
+.game-promo-thumbnails .col,
+.social .col{
+    height: 200px;
+    background-color: rgb(192, 236, 238);
+    border:1px solid grey;
+}
+
+.col {
+    border:1px solid grey;
+    height: 50px;
+}
