@@ -20,7 +20,7 @@ nav .menu {
     height: 70px;
     border-bottom: 1px solid black;
 }
-
+/* 
 .jumbo-thumbnails .col, 
 .playstation-carousel .col,
 .game-promo-thumbnails .col,
@@ -28,12 +28,12 @@ nav .menu {
     height: 200px;
     background-color: rgb(192, 236, 238);
     border:1px solid grey;
-}
+} */
 
-.col {
+/* .col {
     border:1px solid grey;
     height: 50px;
-}
+} */
 
 .jumbotron {
     background-image: url("../img/jumbo-bg.png");
@@ -48,4 +48,13 @@ nav .menu {
 }
 .ms-jumbo {
     height: 100%;
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.jumbo-thumbnails {
+    margin-top: 20px;
 }
