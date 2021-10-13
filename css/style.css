@@ -118,6 +118,7 @@ h2.jumbo-title {
     margin-bottom: 100px;
 }
 
+/* Playstation 5 */
 .playstation-5 .center{
     text-align: center;
     margin-bottom: 50px;
@@ -142,5 +143,11 @@ button.info {
 }
 
 .console img {
+    width: 100%;
+}
+
+/* Playstation 5 carousel */
+
+.product-thumbnail img {
     width: 100%;
 }
