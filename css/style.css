@@ -20,6 +20,8 @@ nav .menu {
     height: 70px;
     border-bottom: 1px solid black;
 }
+
+
 /* 
 .jumbo-thumbnails .col, 
 .playstation-carousel .col,
@@ -34,6 +36,14 @@ nav .menu {
     border:1px solid grey;
     height: 50px;
 } */
+
+/* General */
+
+h2 {
+    font-size: 2.6rem;
+}
+
+
 
 button {
     padding: 5px 20px;
@@ -55,18 +65,7 @@ button {
     height: 100%;
 }
 
-/* Jumbo-Thumbnails */
-.thumbnail img{
-    width: 100%;
-    border-radius: 16px;
-    margin-bottom: 10px;
-}
-
-.jumbo-thumbnails {
-    margin-top: 20px;
-}
-
-.jumbotron button {
+button.buy-now{
     background-color: #bf290f;
     color: white;
     margin-bottom: 50px;
@@ -87,6 +86,8 @@ h2.jumbo-title {
     margin-bottom: 40px;
 }
 
+
+/* Jumbo media */
 @media (min-width: 576px){
     .jumbo-logo {
         max-width: 315px;
@@ -103,4 +104,43 @@ h2.jumbo-title {
     .jumbo-logo {
         max-width: 210px;
     }
+}
+
+/* Jumbo-Thumbnails */
+.thumbnail img{
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.jumbo-thumbnails {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.playstation-5 .center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.playstation-5 small {
+    color:#2a7acf;
+}
+
+.playstation-5 h2 {
+    margin-bottom: 20px;
+}
+
+.playstation-5 h5 {
+    color: #626262;
+}
+
+button.info {
+    background-color: #234ae0;
+    color:white;
+    margin-top: 20px;
+}
+
+.console img {
+    width: 100%;
 }
