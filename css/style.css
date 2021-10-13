@@ -34,3 +34,18 @@ nav .menu {
     border:1px solid grey;
     height: 50px;
 }
+
+.jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 70vh; 
+}
+
+.jumbotron {
+    color:white;
+}
+.ms-jumbo {
+    height: 100%;
+}
