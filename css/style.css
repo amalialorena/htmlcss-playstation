@@ -55,7 +55,6 @@ button {
 .jumbotron {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    width: 100%;
     background-position: center;
     height: 70vh; 
     color:white;
@@ -181,5 +180,22 @@ button.info {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     height: 70vh;
+    background-position: center;
+    color:white;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.game-promo .jumbo-logo {
+    position:relative;
+    z-index:1;
+}
+
 
