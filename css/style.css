@@ -147,7 +147,39 @@ button.info {
 }
 
 /* Playstation 5 carousel */
-
 .product-thumbnail img {
     width: 100%;
 }
+
+.playstation-5-carousel p {
+    display:none;
+}
+
+.playstation-5-carousel {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.playstation-5-carousel .selected-item{
+    border-bottom: 2px solid blue;
+}
+
+/* Playstation 5 media */
+@media (min-width:768px) {
+    .product-thumbnail {
+        max-width: 50%;
+        margin: 5px auto;
+    }
+
+    .playstation-5-carousel p {
+        display:block;
+    }
+}
+
+/* Game promo il takes two */
+
+.game-promo {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+
