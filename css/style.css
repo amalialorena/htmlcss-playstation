@@ -235,3 +235,25 @@ button.info {
     background-color: #11142d;
     color: white;
 }
+
+.social {
+    padding: 60px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    margin: 10px; 
+    width: 40%;
+}
+
+@media (min-width: 576px) {
+    .social-icon {
+        max-width: 100px;
+        justify-content: center;
+    }
+}
