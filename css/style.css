@@ -268,9 +268,10 @@ footer {
     color:white;
 }
 
-.ps-logo {
-    width:100px ;
-    margin-top: 60px;
+
+.ps-logo svg {
+    width: 120px;
+    height: auto;
 }
 
 
@@ -281,7 +282,6 @@ footer {
 
 .lang {
     font-size: 0.8rem;
-    margin-bottom: 60px;
 }
 
 .sie {
@@ -309,6 +309,22 @@ footer a {
     font-size: 1rem;
 }
 
+.logo-link-container {
+    padding-top: 60px;
+}
+
+footer svg path{
+    fill: white;
+}
+
+.links {
+    margin-top:20px;
+}
+
 @media (min-width: 768px) {
+   .links {
+       display: flex;
+       justify-content: space-around;
+   }
 
 }
