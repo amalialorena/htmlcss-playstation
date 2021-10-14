@@ -1,16 +1,4 @@
 
-/* debug */
-
-/* section {
-    height: 100vh;
-    background-color:aquamarine;
-    border: 1px solid black;
-} */
-
-/* section:nth-child(odd) {
-    background-color: rgb(247, 239, 239);
-} */
-
 nav .logo{
     height: 40px;
     background-color: black;
@@ -21,27 +9,12 @@ nav .menu {
     border-bottom: 1px solid black;
 }
 
-
-/* 
-.jumbo-thumbnails .col, 
-.playstation-carousel .col,
-.game-promo-thumbnails .col,
-.social .col{
-    height: 200px;
-    background-color: rgb(192, 236, 238);
-    border:1px solid grey;
-} */
-
-/* .col {
-    border:1px solid grey;
-    height: 50px;
-} */
-
 /* General */
-
 h2 {
     font-size: 2.6rem;
+    margin: 20px 0;
 }
+
 h5 {
     color: #626262;
 }
@@ -51,12 +24,14 @@ h5 {
     margin-bottom: 50px;
 }
 
-
-
 button {
     padding: 5px 20px;
     border-radius: 20px;
     border: none;
+}
+
+img{
+    width: 100%;
 }
 
 /* Jumbotron */
@@ -214,7 +189,8 @@ button.info {
 }
 
 /* Playstation 4 */
-.playstation-4 .center h2 {
+.playstation-4 .center h2,
+.discount h2 {
     margin-top: 60px;
     margin-bottom: 30px;  
 }
@@ -232,16 +208,30 @@ button.info {
     width: 100%;
 }
 
-.ps-plus-logo {
+.ps-plus-logo,
+.ps-now-logo {
     margin-bottom: 30px;
 }
 
-.ps-plus-text {
+.ps-plus-text,
+.ps-now-text{
     margin: 20px 0;
 }
 
 .playstation-plus button {
     background-color: #d0d1d4;
     color:#234ae0;
-    margin-top: 10px;
+}
+
+/* Discount */
+.discount img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+/* Playstation now */
+.playstation-now {
+    background-color: #11142d;
+    color: white;
 }
