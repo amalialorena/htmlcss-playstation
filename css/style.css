@@ -42,6 +42,14 @@ nav .menu {
 h2 {
     font-size: 2.6rem;
 }
+h5 {
+    color: #626262;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
 
@@ -118,10 +126,6 @@ h2.jumbo-title {
 }
 
 /* Playstation 5 */
-.playstation-5 .center{
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 .playstation-5 small {
     color:#2a7acf;
@@ -129,10 +133,6 @@ h2.jumbo-title {
 
 .playstation-5 h2 {
     margin-bottom: 20px;
-}
-
-.playstation-5 h5 {
-    color: #626262;
 }
 
 button.info {
@@ -164,7 +164,7 @@ button.info {
 
 /* Playstation 5 media */
 @media (min-width:768px) {
-    .product-thumbnail {
+    .playstation-5-carousel .product-thumbnail {
         max-width: 50%;
         margin: 5px auto;
     }
@@ -181,6 +181,7 @@ button.info {
     height: 70vh;
     background-position: center;
     color:white;
+    position:relative
 }
 
 .overlay {
@@ -192,11 +193,10 @@ button.info {
     background-color: rgba(0, 0, 0, 0.281);
 }
 
-.game-promo .jumbo-logo {
+.game-promo .ms-jumbo {
     position:relative;
     z-index:1;
 }
-
 
 /* Game-Promo-Thumbnails */
 .game-promo-thumbnails {
@@ -213,3 +213,35 @@ button.info {
     margin-bottom: 20px;
 }
 
+/* Playstation 4 */
+.playstation-4 .center h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;  
+}
+
+.playstation-4 .product-thumbnail{
+    margin-bottom: 50px;
+}
+
+/* Playstation plus */
+.playstation-plus {
+    background-color: #b0aead;
+}
+
+.playstation-plus img{
+    width: 100%;
+}
+
+.ps-plus-logo {
+    margin-bottom: 30px;
+}
+
+.ps-plus-text {
+    margin: 20px 0;
+}
+
+.playstation-plus button {
+    background-color: #d0d1d4;
+    color:#234ae0;
+    margin-top: 10px;
+}
