@@ -100,7 +100,7 @@ nav .container-fluid.logo-sony-end {
 .ms-container-end {
     display: flex;
     justify-content: flex-end;
-    width: 47%;
+    flex-grow: 1;
 }
 .lens{
     line-height: 45px;
@@ -115,6 +115,20 @@ nav button{
     color:white;
     border-radius: 23px;
 }
+.dropdown, button, .lens {
+    display: none;
+}
+
+
+
+/* nav media */
+@media (min-width: 1200px) {
+    .dropdown, button, .lens {
+        display: block;
+    }
+
+}
+
 
 /* Jumbotron */
 .jumbotron {
