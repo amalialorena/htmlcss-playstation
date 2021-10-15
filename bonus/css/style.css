@@ -34,7 +34,7 @@ a {
 
 /* NAV  and logo*/
 
-.logo-sony img {
+/* .logo-sony img {
     height: 12px;
 }
 
@@ -51,8 +51,8 @@ nav .container-fluid.logo-sony-end {
     color:black;
 }
 
-.navbar .container-fluid.space-between {
-    justify-content: space-between;
+.navbar .container-fluid.ms-start {
+    justify-content: flex-start;
 }
 
 .dropdown .dropdown-menu.ms-hidden-menu {
@@ -102,7 +102,6 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
     flex-grow: 1;
 }
-
 .lens{
     line-height: 45px;
 }
@@ -116,20 +115,19 @@ nav button{
     color:white;
     border-radius: 23px;
 }
-.dropdown, button.ms-nav-button, .lens {
+.dropdown, button, .lens {
     display: none;
 }
 
+
+
 /* nav media */
-@media (min-width: 1200px) {
-    .dropdown, button.ms-nav-button, .lens {
+/* @media (min-width: 1200px) {
+    .dropdown, button, .lens {
         display: block;
     }
-    button.navbar-toggler{
-        display: none;
-    }   
-}
 
+}  */
 
 
 /* Jumbotron */
