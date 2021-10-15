@@ -80,9 +80,16 @@ nav .container-fluid.logo-sony-end {
     justify-content: center;
 }
 
+.hide-dot {
+    list-style: none;
+}
+
+.ul-dot {
+    padding-left: 40px;
+}
+
 .li-dot {
-    display: list-item;
-    
+    list-style: disc;
 }
 
 /* Jumbotron */
