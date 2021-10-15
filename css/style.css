@@ -82,14 +82,38 @@ nav .container-fluid.logo-sony-end {
 
 .hide-dot {
     list-style: none;
+    padding:0;
 }
 
-.ul-dot {
-    padding-left: 40px;
+.sub-link {
+    display:flex;
+    justify-content: center;
+    border-top:2px solid rgb(211, 206, 206);
+    align-items: center;
 }
 
 .li-dot {
     list-style: disc;
+    margin-left: 30px;
+}
+
+.ms-container-end {
+    display: flex;
+    justify-content: flex-end;
+    width: 47%;
+}
+.lens{
+    line-height: 45px;
+}
+.lens img{
+    width: 25px;
+    margin-left: 20px;
+}
+
+nav button{
+    background-color: black;
+    color:white;
+    border-radius: 23px;
 }
 
 /* Jumbotron */
