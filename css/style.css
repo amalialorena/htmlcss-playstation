@@ -1,15 +1,9 @@
 
-nav .logo{
-    height: 40px;
-    background-color: black;
-}
-
-nav .menu {
-    height: 70px;
-    border-bottom: 1px solid black;
-}
-
 /* General */
+/* body {
+    padding-top: 76px;
+} */
+
 h2 {
     font-size: 2.6rem;
     margin: 20px 0;
@@ -31,12 +25,23 @@ button {
 }
 
 img{
-    width: 100%;
+   max-width: 100%;
 }
 
 a {
     text-decoration: none;
 }
+
+/* NAV  and logo*/
+
+.logo-sony img {
+    height: 12px;
+}
+
+nav .container-fluid.logo-sony-end {
+    justify-content: flex-end;
+}
+
 
 /* Jumbotron */
 .jumbotron {
