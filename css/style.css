@@ -150,6 +150,12 @@ nav button{
     }   
 }
 
+@media (max-width: 1200px) {
+    .ms-container-end {
+        display:none;
+    }
+}
+
 
 
 /* Jumbotron */
