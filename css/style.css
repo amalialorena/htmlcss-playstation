@@ -1,8 +1,8 @@
 
 /* General */
-/* body {
-    padding-top: 76px;
-} */
+body {
+    padding-top: 100px;
+}
 
 h2 {
     font-size: 2.6rem;
@@ -42,6 +42,48 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
 }
 
+.navbar {
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.nav-link {
+    color:black;
+}
+
+.navbar .container-fluid.ms-start {
+    justify-content: flex-start;
+}
+
+.dropdown .dropdown-menu.ms-hidden-menu {
+    top:98%;
+    right:0;
+    border: 0;
+    border-radius: 0;
+    background-clip: unset;
+}
+
+.ms-nav-container {
+    position: relative;
+}
+
+.dropdown {
+    position:static;
+}
+
+.play-menu {
+    text-align: center;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+}
+
+.li-dot {
+    display: list-item;
+    
+}
 
 /* Jumbotron */
 .jumbotron {
