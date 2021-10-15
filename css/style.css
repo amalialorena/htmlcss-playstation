@@ -134,6 +134,11 @@ nav button{
     width: 40px;
 }
 
+.ms-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* nav media */
 @media (min-width: 1200px) {
     .dropdown, button.ms-nav-button, .lens {
