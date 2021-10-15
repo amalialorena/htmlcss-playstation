@@ -120,12 +120,27 @@ nav button{
     display: none;
 }
 
+.small-devices-nav {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.search {
+    border: 2px solid rgba(128, 128, 128, 0.562);
+    margin: 20px 0;
+}
+
+.search a img {
+    width: 40px;
+}
+
 /* nav media */
 @media (min-width: 1200px) {
     .dropdown, button.ms-nav-button, .lens {
         display: block;
     }
-    button.navbar-toggler{
+    button.navbar-toggler,
+    #navbarNavAltMarkup{
         display: none;
     }   
 }
