@@ -24,10 +24,6 @@ button {
     border: none;
 }
 
-img{
-   max-width: 100%;
-}
-
 a {
     text-decoration: none;
 }
@@ -42,9 +38,9 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
 }
 
-.navbar {
-    padding-top:0;
-    padding-bottom: 0;
+nav{
+    padding:0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
 }
 
 .nav-link {
@@ -60,11 +56,12 @@ nav .container-fluid.logo-sony-end {
     right:0;
     border: 0;
     border-radius: 0;
-    background-clip: unset;
+    background-color:white;
 }
 
-.ms-nav-container {
-    position: relative;
+.dropdown-menu {
+    padding: 0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
 }
 
 .dropdown {
@@ -80,6 +77,10 @@ nav .container-fluid.logo-sony-end {
     justify-content: center;
 }
 
+.dropdown-item:hover {
+    background-color: white;
+}
+
 .hide-dot {
     list-style: none;
     padding:0;
@@ -89,7 +90,7 @@ nav .container-fluid.logo-sony-end {
     display:flex;
     justify-content: center;
     border-top:2px solid rgb(211, 206, 206);
-    align-items: center;
+    padding: 5px 0; 
 }
 
 .li-dot {
@@ -360,8 +361,17 @@ button.info {
     color: white;
 }
 
+.ps-now-img img, .ps-now-logo img{
+    width: 100%;
+}
+
+/* Social */
 .social {
     padding: 60px 0;
+}
+
+.social-icon img {
+    width: 100%;
 }
 
 .social-icons {
