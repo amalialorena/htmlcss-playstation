@@ -243,7 +243,22 @@ h2.jumbo-title {
 .thumbnail img{
     width: 100%;
     border-radius: 16px;
+    
+}
+
+.thumbnail {
+    border: 2px solid transparent;
+    padding: 2px;
     margin-bottom: 10px;
+    border-radius: 17px;
+    position:relative;
+    bottom:0;
+    transition: bottom .5s;
+}
+
+.thumbnail:hover {
+    border: 2px solid blue;
+    bottom:10px;  
 }
 
 .jumbo-thumbnails {
