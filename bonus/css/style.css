@@ -22,11 +22,29 @@ button {
     padding: 5px 20px;
     border-radius: 20px;
     border: none;
+    position: relative;
+}
+.button-hover-black,
+.button-hover-white{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin:3px;
+    transition: border .3s;
 }
 
-img{
-   max-width: 100%;
+button:hover .button-hover-black {
+    border: 2px solid black;
 }
+
+button:hover .button-hover-white {
+    border: 2px solid white;
+}
+
 
 a {
     text-decoration: none;
@@ -34,7 +52,7 @@ a {
 
 /* NAV  and logo*/
 
-/* .logo-sony img {
+.logo-sony img {
     height: 12px;
 }
 
@@ -42,17 +60,21 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
 }
 
-.navbar {
-    padding-top:0;
-    padding-bottom: 0;
+nav{
+    padding:0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+#ms-nav {
+    padding:0;
 }
 
 .nav-link {
     color:black;
 }
 
-.navbar .container-fluid.ms-start {
-    justify-content: flex-start;
+.navbar .container-fluid.space-between {
+    justify-content: space-between;
 }
 
 .dropdown .dropdown-menu.ms-hidden-menu {
@@ -60,11 +82,12 @@ nav .container-fluid.logo-sony-end {
     right:0;
     border: 0;
     border-radius: 0;
-    background-clip: unset;
+    background-color:white;
 }
 
-.ms-nav-container {
-    position: relative;
+.dropdown-menu {
+    padding: 0;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
 }
 
 .dropdown {
@@ -80,6 +103,10 @@ nav .container-fluid.logo-sony-end {
     justify-content: center;
 }
 
+.dropdown-item:hover {
+    background-color: white;
+}
+
 .hide-dot {
     list-style: none;
     padding:0;
@@ -89,7 +116,7 @@ nav .container-fluid.logo-sony-end {
     display:flex;
     justify-content: center;
     border-top:2px solid rgb(211, 206, 206);
-    align-items: center;
+    padding: 5px 0; 
 }
 
 .li-dot {
@@ -102,6 +129,7 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
     flex-grow: 1;
 }
+
 .lens{
     line-height: 45px;
 }
@@ -115,19 +143,46 @@ nav button{
     color:white;
     border-radius: 23px;
 }
-.dropdown, button, .lens {
+.dropdown, button.ms-nav-button, .lens {
     display: none;
 }
 
+.small-devices-nav {
+    width: 250px;
+    margin-top: 20px;
+}
 
+.search {
+    border: 2px solid rgba(128, 128, 128, 0.562);
+    margin: 20px 0;
+}
+
+.search a img {
+    width: 40px;
+}
+
+.ms-space-between {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* nav media */
-/* @media (min-width: 1200px) {
-    .dropdown, button, .lens {
+@media (min-width: 1200px) {
+    .dropdown, button.ms-nav-button, .lens {
         display: block;
     }
+    button.navbar-toggler,
+    #navbarNavAltMarkup{
+        display: none;
+    }   
+}
 
-}  */
+@media (max-width: 1200px) {
+    .ms-container-end {
+        display:none;
+    }
+}
+
 
 
 /* Jumbotron */
@@ -332,8 +387,17 @@ button.info {
     color: white;
 }
 
+.ps-now-img img, .ps-now-logo img{
+    width: 100%;
+}
+
+/* Social */
 .social {
     padding: 60px 0;
+}
+
+.social-icon img {
+    width: 100%;
 }
 
 .social-icons {

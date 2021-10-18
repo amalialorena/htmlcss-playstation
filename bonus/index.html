@@ -14,43 +14,73 @@
 <body>
 
     <header>
-     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled">Disabled</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-
-        <!-- <nav class="navbar navbar fixed-top navbar-light bg-light">
-           
+        <nav class="navbar fixed-top navbar-light bg-light" id="ms-nav">
+            <!-- Nav bar sony -->
             <div class="container-fluid bg-dark logo-sony-end ms-nav-container">
                 <a class="navbar-brand logo-sony" href="#">
                     <img src="img/sony_logo.svg" alt="" class="d-inline-block">
                 </a>
             </div>
-            
-           
-            <div class="container-fluid ms-start">
+
+            <!-- nav elements -->
+            <div class="container-fluid ms-space-between">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="" height="50" class="d-inline-block">
                 </a>
-               
+                <!-- Dropdown element -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Novit&agrave;
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My PlayStation
+                        </a>
+                        <button class="small-devices-nav">
+                            Accedi
+                            <div class="button-hover-white"></div>
+                        </button>
+                        <div class="search">
+                            <a href="#">
+                                <img src="img/lens.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Giochi
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Giochi
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -68,7 +98,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -79,10 +109,11 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
-                  <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hardware
+                </div>
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Hardware
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -100,7 +131,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -111,11 +142,12 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Servizi
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Servizi
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -133,7 +165,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -144,11 +176,12 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Novit&agrave;
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Novit&agrave;
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -166,7 +199,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -177,11 +210,12 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Fai acquisti
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Fai acquisti
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -199,7 +233,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -210,11 +244,12 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Supporto
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Supporto
                     </a>
                     <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                         <li>
@@ -232,7 +267,7 @@
                                         <div class="play-menu">
                                             <img src="IMG/play-menu-ico.png" alt="">
                                             <p>PS5</p>
-                                        </div>  
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
@@ -243,12 +278,13 @@
                             </ul>
                         </li>
                     </ul>
-                  </div>
-                
-                  <div class="ms-container-end">
+                </div>
+
+                <div class="ms-container-end">
                     <div class="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                          My PlayStation
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My PlayStation
                         </a>
                         <ul class="dropdown-menu ms-hidden-menu" aria-labelledby="dropdownMenuLink">
                             <li>
@@ -266,7 +302,7 @@
                                             <div class="play-menu">
                                                 <img src="IMG/play-menu-ico.png" alt="">
                                                 <p>PS5</p>
-                                            </div>  
+                                            </div>
                                         </a>
                                     </li>
                                 </ul>
@@ -277,24 +313,20 @@
                                 </ul>
                             </li>
                         </ul>
-                      </div>
-                    
-                      <button>
-                          Accedi
-                      </button>
-                      <a class="lens" href="#">
-                            <img src="img/lens.svg" alt="">
-                      </a>
-                    
+                    </div>
 
-                  </div>
-
+                    <button class="ms-nav-button">
+                        Accedi
+                        <div class="button-hover-white"></div>
+                    </button>
+                    <a class="lens" href="#">
+                        <img src="img/lens.svg" alt="">
+                    </a>
+                </div>
             </div>
+        </nav>
 
-            
-        </nav> -->
 
-        
 
         <!-- Jumbo -->
         <section class="jumbotron">
@@ -307,7 +339,10 @@
                         <h2 class="jumbo-title">Rompi il cerchio</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt. At natus quos
                             consequatur perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        <button type="button" class="buy-now"> Acquista ora</button>
+                        <button type="button" class="buy-now"> Acquista ora
+                            <div class="button-hover-black"></div>
+                        </button>
+                        
                     </div>
                 </div>
             </div>
@@ -366,7 +401,10 @@
                 <div class="col align-self-center">
                     <h2>Console Playstation 5</h2>
                     <h5>Sperimenta la nuova generazione di incredibili giochi PlayStation</h5>
-                    <button type="button" class="info"> Maggiori informazioni</button>
+                    <button type="button" class="info">
+                         Maggiori informazioni
+                         <div class="button-hover-white"></div>
+                    </button>
                 </div>
                 <div class="col">
                     <div class="console">
@@ -425,7 +463,10 @@
                     <h2 class="jumbo-title">Un'avventura cooperativa selvaggia ti attende</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt. At natus quos
                         consequatur perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <button type="button" class="buy-now"> Acquista ora</button>
+                    <button type="button" class="buy-now">
+                         Acquista ora
+                         <div class="button-hover-black"></div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -620,7 +661,7 @@
                         distinctio odit eligendi fugit aut adipisci quis tenetur voluptate illo nostrum!</p>
                     <button>Esplora Playstation now</button>
                 </div>
-                <div class="col d-none d-md-block">
+                <div class="col d-none d-md-block ps-now-img">
                     <img src="img/ps-now-april-featured-image-block.png" alt="">
                 </div>
             </div>
@@ -636,7 +677,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="social-icons">
+                <div class="col social-icons">
                     <div class="social-icon">
                         <img src="img/twitter.jpg" alt="twitter">
                     </div>
@@ -754,8 +795,10 @@
         </div>
     </footer>
 
-<!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
