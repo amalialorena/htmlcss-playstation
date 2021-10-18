@@ -256,8 +256,11 @@ h2.jumbo-title {
     transition: bottom .5s;
 }
 
-.thumbnail:hover {
+.jumbo-thumbnails .thumbnail:hover {
     border: 2px solid blue;
+}
+
+.thumbnail:hover {
     bottom:10px;  
 }
 
@@ -299,8 +302,17 @@ button.info {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .playstation-5-carousel .selected-item{
     border-bottom: 2px solid blue;
+}
+
+.opacity {
+    opacity: 0.50;
+}
+
+.opacity:hover {
+    opacity:1;
 }
 
 /* Playstation 5 media */
