@@ -24,8 +24,8 @@ button {
     border: none;
     position: relative;
 }
-.button-hover-black,
-.button-hover-white{
+button::after {
+    content:"";
     position:absolute;
     top:0;
     bottom: 0;
@@ -37,11 +37,11 @@ button {
     transition: border .3s;
 }
 
-button:hover .button-hover-black {
+button:hover::after{
     border: 2px solid black;
 }
 
-button:hover .button-hover-white {
+button.white:hover::after{
     border: 2px solid white;
 }
 
