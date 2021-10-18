@@ -38,7 +38,7 @@ nav .container-fluid.logo-sony-end {
     justify-content: flex-end;
 }
 
-nav{
+nav {
     padding:0;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
 }
@@ -104,15 +104,15 @@ nav{
     flex-grow: 1;
 }
 
-.lens{
+.lens {
     line-height: 45px;
 }
-.lens img{
+.lens img {
     width: 25px;
     margin-left: 20px;
 }
 
-nav button{
+nav button {
     background-color: black;
     color:white;
     border-radius: 23px;
@@ -172,7 +172,7 @@ nav button{
     height: 100%;
 }
 
-button.buy-now{
+button.buy-now {
     background-color: #bf290f;
     color: white;
     margin-bottom: 50px;
@@ -214,7 +214,7 @@ h2.jumbo-title {
 }
 
 /* Jumbo-Thumbnails */
-.thumbnail img{
+.thumbnail img {
     width: 100%;
     border-radius: 16px;
     margin-bottom: 10px;
@@ -258,7 +258,7 @@ button.info {
     text-align: center;
     margin-bottom: 30px;
 }
-.playstation-5-carousel .selected-item{
+.playstation-5-carousel .selected-item {
     border-bottom: 2px solid blue;
 }
 
@@ -320,7 +320,7 @@ button.info {
     margin-bottom: 30px;  
 }
 
-.playstation-4 .product-thumbnail{
+.playstation-4 .product-thumbnail {
     margin-bottom: 50px;
 }
 
@@ -329,7 +329,7 @@ button.info {
     background-color: #b0aead;
 }
 
-.playstation-plus img{
+.playstation-plus img {
     width: 100%;
 }
 
@@ -339,7 +339,7 @@ button.info {
 }
 
 .ps-plus-text,
-.ps-now-text{
+.ps-now-text {
     margin: 20px 0;
 }
 
@@ -405,7 +405,7 @@ footer {
 }
 
 
-.lang img{
+.lang img {
     width:20px;
     margin:10px;
 }
@@ -425,7 +425,7 @@ footer {
     margin-bottom: 70px;
 }
 
-footer ul{
+footer ul {
     margin: 0;
     padding: 0;
 }
@@ -443,7 +443,7 @@ footer a {
     padding-top: 60px;
 }
 
-footer svg path{
+footer svg path {
     fill: white;
 }
 
