@@ -345,6 +345,23 @@ button.info {
     z-index:1;
 }
 
+h2.promo {
+    font-size: 30px;
+}
+
+p.jumbo-promo-text {
+    font-size: 14px;
+}
+
+@media (min-width: 360px) {
+    h2.promo {
+        font-size: 2.5rem;
+    }
+    p.jumbo-promo-text {
+        font-size: 16px;
+    }
+}
+
 /* Game-Promo-Thumbnails */
 .game-promo-thumbnails {
     background-color: #181818;
@@ -359,6 +376,7 @@ button.info {
 .game-promo-thumbnails h3 {
     margin-bottom: 20px;
 }
+
 
 /* Playstation 4 */
 .playstation-4 .center h2,
