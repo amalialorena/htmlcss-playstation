@@ -13,7 +13,7 @@ h5 {
     color: #626262;
 }
 
-.center {
+.center{
     text-align: center;
     margin-bottom: 50px;
 }
@@ -22,29 +22,7 @@ button {
     padding: 5px 20px;
     border-radius: 20px;
     border: none;
-    position: relative;
 }
-button::after {
-    content:"";
-    position:absolute;
-    top:0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    margin:3px;
-    transition: border .3s;
-}
-
-button.black:hover::after {
-    border: 2px solid black;
-}
-
-button.white:hover::after {
-    border: 2px solid white;
-}
-
 
 a {
     text-decoration: none;
@@ -190,6 +168,10 @@ nav button {
     color:white;
 }
 
+.ms-jumbo {
+    height: 100%;
+}
+
 button.buy-now {
     background-color: #bf290f;
     color: white;
@@ -213,19 +195,19 @@ h2.jumbo-title {
 
 
 /* Jumbo media */
-@media (min-width: 576px) {
+@media (min-width: 576px){
     .jumbo-logo {
         max-width: 315px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
     .jumbo-logo {
         max-width: 400px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px){
     .jumbo-logo {
         max-width: 210px;
     }
@@ -235,25 +217,7 @@ h2.jumbo-title {
 .thumbnail img {
     width: 100%;
     border-radius: 16px;
-    
-}
-
-.thumbnail {
-    border: 2px solid transparent;
-    padding: 2px;
     margin-bottom: 10px;
-    border-radius: 17px;
-    position:relative;
-    bottom:0;
-    transition: bottom .5s;
-}
-
-.jumbo-thumbnails .thumbnail:hover {
-    border: 2px solid blue;
-}
-
-.thumbnail:hover {
-    bottom:10px;  
 }
 
 .jumbo-thumbnails {
@@ -294,17 +258,8 @@ button.info {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .playstation-5-carousel .selected-item {
     border-bottom: 2px solid blue;
-}
-
-.opacity {
-    opacity: 0.50;
-}
-
-.opacity:hover {
-    opacity:1;
 }
 
 /* Playstation 5 media */
@@ -406,7 +361,7 @@ button.info {
     color: white;
 }
 
-.ps-now-img img, .ps-now-logo img {
+.ps-now-img img, .ps-now-logo img{
     width: 100%;
 }
 
@@ -450,7 +405,7 @@ footer {
 }
 
 
-.lang img { 
+.lang img {
     width:20px;
     margin:10px;
 }
